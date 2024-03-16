@@ -1,0 +1,200 @@
+[
+  {
+    "name": "App Development",
+    "type": "app",
+    "courses": [
+      {
+        "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "image": "images/app1.jpg",
+        "description": "From Beginner to iOS App Developer with Just One Course! Fully Updated with a Comprehensive Module Dedicated to SwiftUI!",
+        "link": "https://www.udemy.com/course/ios-13-app-development-bootcamp/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "The Complete Android 14 Developer Course - Java & Kotlin",
+        "image": "images/app2.jpg",
+        "description": "Learn Android App Development in both Java &amp; Kotlin Languages. You'll master Android from ZERO to HERO",
+        "link": "https://www.udemy.com/course/the-complete-android-10-developer-course-mastering-android/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "The Complete Flutter Development Bootcamp with Dart",
+        "image": "images/app3.jpg",
+        "description": "Officially created in collaboration with the Google Flutter team.",
+        "link": "https://www.udemy.com/course/flutter-bootcamp-with-dart/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Flutter & Firebase Tutorial: Build 5 Social Media Apps",
+        "image": "images/app4.jpg",
+        "description": "Learn Flutter & Firebase by building Instagram, TikTok, Twitch, Zoom & WhatsApp!",
+        "link": "https://www.udemy.com/course/flutter-firebase-tutorial-build-5-social-media-apps/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "React Native - The Practical Guide [2024]",
+        "image": "images/app5.png",
+        "description": "Use React Native and your React knowledge to build native iOS and Android Apps - incl. Push Notifications, Hooks, Redux",
+        "link": "https://www.udemy.com/course/react-native-the-practical-guide/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Data Science",
+    "type": "data",
+    "courses": [
+      {
+        "name": "The Data Science Course: Complete Data Science Bootcamp 2024",
+        "image": "images/data1.jpg",
+        "description": "Complete Data Science Training: Math, Statistics, Python, Advanced Statistics in Python, Machine and Deep Learning",
+        "link": "https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "100 Days of Code: The Complete Python Pro Bootcamp",
+        "image": "images/data2.jpg",
+        "description": "Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!",
+        "link": "https://www.udemy.com/course/100-days-of-code/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Game development",
+    "type": "game",
+    "courses": [
+      {
+        "name": "Complete C# Unity Game Developer 3D",
+        "image": "images/game1.jpg",
+        "description": "Design & Develop Video Games. Learn C# in Unity Engine. Code Your first 3D Unity games for web, Mac & PC.",
+        "link": "https://www.udemy.com/course/unitycourse2/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games",
+        "image": "images/game2.jpg",
+        "description": "Created in collaboration with Epic Games. Learn C++ from basics while making your first 5 video games in Unreal",
+        "link": "https://www.udemy.com/course/unrealcourse/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Complete Godot 3D: Develop Your Own 3D Games Using Godot 4",
+        "image": "images/game3.png",
+        "description": "Learn how to create 3D games from start to finish in Godot engine 4 and GDScript! - EARLY ACCESS",
+        "link": "https://www.udemy.com/course/complete-godot-3d/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Complete C# Unity Game Developer 2D",
+        "image": "images/game4.jpg",
+        "description": "Learn Unity in C# & Code Your First Five 2D Video Games for Web, Mac & PC. The Tutorials Cover Tilemap",
+        "link": "https://www.udemy.com/course/unitycourse/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Complete Blender Creator: Learn 3D Modelling for Beginners",
+        "image": "images/game5.jpg",
+        "description": "Use Blender to Create Beautiful 3D models for Video Games, 3D Printing & More. Beginners Level Course",
+        "link": "https://www.udemy.com/course/blendertutorial/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Cyber security",
+    "type": "cyber",
+    "courses": [
+      {
+        "name": "The Complete Cyber Security Course : Hackers Exposed!",
+        "image": "images/cyber1.jpg",
+        "description": "Volume 1 : Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security & INFOSEC",
+        "link": "https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/"
+      },
+      {
+        "name": "Learn Ethical Hacking From Scratch",
+        "image": "images/cyber2.jpg",
+        "description": "Become an ethical hacker that can hack like black hat hackers and secure systems like cybersecurity experts\nBestseller\n",
+        "link": "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Web development",
+    "type": "web",
+    "courses": [
+      {
+        "name": "The Complete JavaScript Course 2024: From Zero to Expert!",
+        "image": "images/web1.jpg",
+        "description": "The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!",
+        "link": "https://www.udemy.com/course/the-complete-javascript-course/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "The Complete 2024 Web Development Bootcamp",
+        "image": "images/web2.jpg",
+        "description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps",
+        "link": "https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "The Ultimate React Course 2024: React, Redux & More",
+        "image": "images/web3.jpg",
+        "description": "Master modern React from beginner to advanced! Context API, React Query, Redux Toolkit, Tailwind, advanced patterns",
+        "link": "https://www.udemy.com/course/the-ultimate-react-course/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+        "image": "images/web4.jpg",
+        "description": "Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & more)",
+        "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/"
+      },
+      {
+        "name": "Build Responsive Real-World Websites with HTML and CSS",
+        "image": "images/web5.jpg",
+        "description": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+        "link": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Python and Django Full Stack Web Developer Bootcamp",
+        "image": "images/web6.jpg",
+        "description": "Learn to build websites with HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , and Django!",
+        "link": "https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Math",
+    "type": "math",
+    "courses": [
+      {
+        "name": "Discrete Mathematics",
+        "image": "images/math1.jpg",
+        "description": "Master Discrete Math for Computer Science and Mathematics Students",
+        "link": "https://www.udemy.com/course/discrete-math/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Machine learning",
+    "type": "machine",
+    "courses": [
+      {
+        "name": "Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2024]",
+        "image": "images/machine1.jpg",
+        "description": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included.",
+        "link": "https://www.udemy.com/course/machinelearning/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Artificial Intelligence A-Z 2024: Build 7 AI + LLM & ChatGPT",
+        "image": "images/machine2.jpg",
+        "description": "Combine the power of Data Science, Machine Learning and Deep Learning to create powerful AI for Real-World applications!",
+        "link": "https://www.udemy.com/course/artificial-intelligence-az/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  },
+  {
+    "name": "Dev ops",
+    "type": "devops",
+    "courses": [
+      {
+        "name": "[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02",
+        "image": "images/dev1.jpg",
+        "description": "Full Practice Exam included + explanations | Learn Cloud Computing | Pass the AWS Cloud Practitioner CLF-C02 exam!",
+        "link": "https://www.udemy.com/course/aws-certified-cloud-practitioner-new/?couponCode=LETSLEARNNOWPP"
+      },
+      {
+        "name": "Ultimate AWS Certified Solutions Architect Associate SAA-C03",
+        "image": "images/dev2.jpg",
+        "description": "Full Practice Exam | Learn Cloud Computing | Pass the AWS Certified Solutions Architect Associate Certification SAA-C03!",
+        "link": "https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/?couponCode=LETSLEARNNOWPP"
+      }
+    ]
+  }
+]

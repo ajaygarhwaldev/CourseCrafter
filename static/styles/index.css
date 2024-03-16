@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+    flex: 2;
+    text-align: end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+a:hover {
+    background-color: white;
+    color: #007F73;
+    border-color: white;
+}
+
+i {
+    margin-left: 3px;
+}
+
+span {
+    background-color: white;
+    padding: 0 1rem;
+    color: #007F73;
+    /*border-radius: 10px;*/
+}
+
+
+/*Title section here*/
+.title-section {
+    padding: 7rem;
+    display: flex;
+    background-color: #007F73;
+}
+
+.title-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.title-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+.title-img > img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/*Course section*/
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 30rem;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill-cell {
+    flex: 20%;
+    background-color: #007F73;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.skill-cell:hover {
+    background-color: #00443c;
+    color: white;
+}
+
+/*Footer here*/
+
+footer {
+    background-color: #007F73;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer > p {
+    color: white;
+}
+
+footer > a > i {
+    font-size: 2rem;
+    /*color: black;*/
+}
+
+/*Responsive thing here*/
+
+@media (width <= 1300px) {
+    .title-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem 7rem;
+    }
+
+    .skill-container {
+        padding: 2rem;
+    }
+}
+
+@media (width <= 850px) {
+    .mail-container {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    h2 {
+        text-align: start;
+        margin: 0;
+    }
+
+    .mail-container > form {
+        width: 90%;
+    }
+}
+
+@media (width <= 650px) {
+    .title-img > img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: start;
+    }
+
+    .title-section {
+        padding: 2rem;
+    }
+}

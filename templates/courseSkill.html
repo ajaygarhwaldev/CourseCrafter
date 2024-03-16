@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <script src="https://kit.fontawesome.com/4dc9a70ad5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/skill.css') }}">
+</head>
+<body>
+<nav>
+    <a href="/"><i class="fa-solid fa-house"></i></a>
+    <a href="/skill?course_type=app"><i class="fa-brands fa-apple"></i></a>
+    <a href="/skill?course_type=data"><i class="fa-solid fa-database"></i></a>
+    <a href="/skill?course_type=game"><i class="fa-solid fa-gamepad"></i></a>
+    <a href="/skill?course_type=cyber"><i class="fa-solid fa-shield-halved"></i></a>
+    <a href="/skill?course_type=web"><i class="fa-solid fa-laptop-code"></i></a>
+    <a href="/skill?course_type=math"><i class="fa-solid fa-calculator"></i></a>
+    <a href="/skill?course_type=machine"><i class="fa-brands fa-connectdevelop"></i></a>
+    <a href="/skill?course_type=devops"><i class="fa-brands fa-wpbeginner"></i></a>
+</nav>
+<section class="courses">
+    <h1>Courses</h1>
+    <div class="course-list">
+        {% for skill in skills %}
+            {% if skill.type==course_type %}
+                {% for course in skill.courses %}
+                    <a href="{{ course.link }}">
+                        <img src={{ url_for('static', filename=course.image) }} alt="course" class="course-img">
+                        <h2>{{ course.name }}</h2>
+                        <p>{{ course.description }}</p>
+                    </a>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+</body>
+</html>

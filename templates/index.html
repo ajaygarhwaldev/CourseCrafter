@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <section class="title-section">
+        <div class="title-container">
+            <h1>
+                <span>Explore recommended</span><br><span>courses for</span><br><span>different skills</span>
+            </h1>
+        </div>
+        <div class="title-img">
+            <img src="{{ url_for('static',filename='images/title.png') }}" alt="Title">
+        </div>
+    </section>
+    <section class="skill-container">
+        {% for course in courses %}
+            <a class="skill-cell" href="/skill?course_type={{ course.type }}">
+                {{ course.name }}
+            </a>
+        {% endfor %}
+    </section>
+    <footer>
+        <p><i class="fa-solid fa-copyright"></i> Copyright Jordan 2024</p>
+        <a href="/"><i class="fa-brands fa-github"></i></a>
+    </footer>
+{% endblock %}
